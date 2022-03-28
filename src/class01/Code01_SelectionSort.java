@@ -13,8 +13,8 @@ public class Code01_SelectionSort {
         // N-2~ N-1 找到最小值，在哪，放到N-2位置上
         //小于谁，访问不到那个位置的，只能访问到那个值前一个位置的值。
         //累积执行了N-1次。 每一次中进行比较交换！(交换就要记录一个index)
-        for(int i = 0 ; i  <arr.length-1 ; i++ ){
-            int minIndex = i;
+        for(int i = 0 ; i  <arr.length-1 ; i++ ){ // 0~N-2的意思
+            int minIndex = i; //从i开始即可
             for (int j = i +1 ; j < arr.length ; j++){ //找出 i ~ N-1中最小值的下标
                 if(arr[j]<arr[minIndex]){
                     minIndex = j ;
