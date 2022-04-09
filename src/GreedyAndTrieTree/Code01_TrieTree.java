@@ -1,4 +1,4 @@
-package class05;
+package GreedyAndTrieTree;
 
 import java.util.HashMap;
 
@@ -6,6 +6,7 @@ import java.util.HashMap;
 public class Code01_TrieTree {
     //声明变量和赋值分开
     //在无参构造器里面赋值
+    //结点为路径服务！仅仅占位保存信息。
     public static class Node1{
         public int pass;
         public int end;
@@ -77,7 +78,7 @@ public class Code01_TrieTree {
             }
             return true;
         }
-        
+         
         
         
         
